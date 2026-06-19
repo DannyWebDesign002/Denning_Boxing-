@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Denning Boxing Club Inc. | East Bunbury, WA</title>
+<meta name="description" content="Denning Boxing Club Inc. — Est. 2006 in East Bunbury, WA. Box Fit, Ladies Class & Kids Program. Open 24/7. All ages and fitness levels welcome. Book a free trial today."/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://dannywebdesign002.github.io/Denning_Boxing-"/>
+
+<!-- Open Graph -->
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Denning Boxing Club Inc. | East Bunbury, WA"/>
+<meta property="og:description" content="Boxing for all ages and fitness levels. Box Fit, Ladies Class & Kids Program. Est. 2006 — East Bunbury, WA."/>
+<meta property="og:url" content="https://dannywebdesign002.github.io/Denning_Boxing-"/>
+<meta property="og:site_name" content="Denning Boxing Club Inc."/>
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Denning Boxing Club Inc. | East Bunbury, WA"/>
+<meta name="twitter:description" content="Boxing for all ages and fitness levels. Est. 2006 — East Bunbury, WA."/>
+
+<!-- JSON-LD Local Business Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "Denning Boxing Club Inc.",
+  "description": "Boxing club in East Bunbury, WA offering Box Fit, Ladies Class, and Kids Program. Est. 2006. All ages and fitness levels welcome.",
+  "url": "https://dannywebdesign002.github.io/Denning_Boxing-",
+  "telephone": "+61417171469",
+  "email": "denningboxingclub@outlook.com",
+  "foundingDate": "2006",
+  "sport": "Boxing",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Unit 2/17 Mummery Crescent",
+    "addressLocality": "East Bunbury",
+    "addressRegion": "WA",
+    "postalCode": "6230",
+    "addressCountry": "AU"
+  },
+  "openingHours": "Mo Su 00:00-23:59",
+  "sameAs": ["https://www.facebook.com/DenningBoxingClubInc/"]
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@1,900;0,700;0,300&family=Sora:wght@300;400;600&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+img{max-width:100%;height:auto;display:block}
+:root{
+  --ink:#060806;
+  --bark:#0e130e;
+  --moss:#161e16;
+  --lime:#6dd62e;
+  --mid:#3d8c1a;
+  --dim:#7a8a7a;
+  --cream:#f2f5f0;
+  --gold:#d4a017;
+}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--cream);font-family:'Sora',sans-serif;font-weight:300;overflow-x:hidden}
+
+/* ─── GRAIN ─── */
+body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");pointer-events:none;z-index:9999;mix-blend-mode:overlay}
+
+/* ─── NAV ─── */
+#nav{position:fixed;inset-inline:0;top:0;z-index:200;display:flex;justify-content:space-between;align-items:center;padding:1.4rem 3rem;transition:background .3s,backdrop-filter .3s}
+#nav.solid{background:rgba(6,8,6,.95);backdrop-filter:blur(8px)}
+.nav-logo{font-family:'Bebas Neue';font-size:1.7rem;letter-spacing:.12em;color:var(--cream);text-decoration:none}
+.nav-logo em{color:var(--lime);font-style:normal}
+.nav-links{display:flex;gap:2.5rem;list-style:none}
+.nav-links a{color:var(--dim);text-decoration:none;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;transition:color .2s}
+.nav-links a:hover{color:var(--lime)}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:6px;z-index:201}
+.burger span{display:block;width:26px;height:2px;background:var(--cream);border-radius:2px;transition:transform .35s,opacity .25s,background .2s;transform-origin:center}
+.burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);background:var(--lime)}
+.burger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);background:var(--lime)}
+
+/* ─── MOBILE DRAWER ─── */
+.drawer{position:fixed;top:0;right:0;width:min(320px,85vw);height:100vh;background:var(--bark);z-index:199;transform:translateX(110%);transition:transform .45s cubic-bezier(.4,0,.2,1);border-left:1px solid rgba(109,214,46,.12);display:flex;flex-direction:column}
+.drawer.open{transform:translateX(0)}
+.drawer-inner{display:flex;flex-direction:column;justify-content:space-between;height:100%;padding:5.5rem 2.5rem 3rem}
+.drawer-nav{display:flex;flex-direction:column}
+.drawer-nav a{display:flex;align-items:center;gap:1rem;text-decoration:none;color:var(--cream);font-family:'Barlow Condensed';font-weight:900;font-style:italic;font-size:2rem;text-transform:uppercase;padding:.9rem 0;border-bottom:1px solid rgba(255,255,255,.06);transition:color .2s,padding-left .2s}
+.drawer-nav a:hover{color:var(--lime);padding-left:.5rem}
+.drawer-nav a:last-child{border-bottom:none}
+.dn{font-size:.6rem;color:var(--lime);letter-spacing:.2em;font-style:normal;font-weight:700;font-family:'Sora';min-width:18px;margin-top:4px}
+.drawer-foot{border-top:1px solid rgba(255,255,255,.06);padding-top:1.4rem;display:flex;flex-direction:column;gap:.8rem}
+.drawer-addr{font-size:.75rem;color:var(--dim);line-height:1.7}
+.drawer-link{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--lime);text-decoration:none;font-family:'Barlow Condensed';font-weight:700}
+.drawer-fb{display:inline-flex;align-items:center;gap:.5rem;color:var(--dim);text-decoration:none;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;transition:color .2s}
+.drawer-fb:hover{color:var(--lime)}
+.veil{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:198;opacity:0;pointer-events:none;transition:opacity .4s;backdrop-filter:blur(4px)}
+.veil.open{opacity:1;pointer-events:all}
+
+/* ─── HERO ─── */
+.hero{min-height:100vh;display:grid;grid-template-rows:1fr auto;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background-image:url('images/hero-bg.jpg');background-size:cover;background-position:center 25%;filter:brightness(.55) saturate(.8) contrast(1.12)}
+.hero-grain{position:absolute;inset:0;background:linear-gradient(to top,var(--ink) 0%,rgba(6,8,6,.55) 40%,rgba(6,8,6,.15) 70%,transparent 100%)}
+.hero-glow{position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 20% 70%,rgba(61,140,26,.22),transparent)}
+
+/* Diagonal slash accent */
+.hero-slash{position:absolute;top:0;right:25%;width:2px;height:100%;background:linear-gradient(to bottom,transparent,rgba(109,214,46,.3),transparent);transform:skewX(-8deg)}
+
+.hero-body{position:relative;z-index:2;display:grid;grid-template-columns:1fr auto;align-items:flex-end;padding:0 4rem 5rem;gap:3rem}
+.hero-text{}
+.hero-eyebrow{display:flex;align-items:center;gap:1rem;font-size:.62rem;letter-spacing:.38em;text-transform:uppercase;color:var(--lime);margin-bottom:1.8rem;animation:up .8s .3s both}
+.hero-eyebrow::before{content:'';display:block;width:2rem;height:1px;background:var(--lime)}
+.hero-h1{font-family:'Barlow Condensed';font-weight:900;font-style:italic;font-size:clamp(6rem,11vw,12rem);line-height:.84;text-transform:uppercase;animation:up .8s .5s both}
+.hero-h1 .accent{color:var(--lime);display:block}
+.hero-sub{margin-top:2rem;font-size:.9rem;line-height:1.9;color:rgba(242,245,240,.52);max-width:24rem;animation:up .8s .7s both}
+.hero-cta{margin-top:2.5rem;display:flex;gap:1rem;align-items:center;animation:up .8s .9s both}
+.btn-g{display:inline-flex;align-items:center;gap:.7rem;background:var(--mid);color:var(--cream);text-decoration:none;font-family:'Barlow Condensed';font-weight:700;font-size:1rem;letter-spacing:.18em;text-transform:uppercase;padding:1rem 2rem;transition:background .2s,transform .15s;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px))}
+.btn-g:hover{background:var(--lime);transform:translateY(-2px)}
+.btn-ghost{color:var(--dim);text-decoration:none;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;border-bottom:1px solid rgba(255,255,255,.1);padding-bottom:.15rem;transition:color .2s,border-color .2s}
+.btn-ghost:hover{color:var(--lime);border-color:var(--lime)}
+.hero-stats{display:flex;flex-direction:column;gap:2.5rem;text-align:right;animation:up .8s 1.1s both}
+.stat-n{font-family:'Bebas Neue';font-size:3.5rem;color:var(--lime);line-height:1}
+.stat-l{font-size:.55rem;letter-spacing:.24em;text-transform:uppercase;color:var(--dim)}
+
+/* ─── MARQUEE ─── */
+.marquee{background:var(--mid);overflow:hidden;padding:.8rem 0;white-space:nowrap}
+.mq-track{display:inline-flex;animation:scroll 22s linear infinite}
+.mq-track span{font-family:'Barlow Condensed';font-weight:700;font-size:1rem;letter-spacing:.22em;text-transform:uppercase;padding:0 2.5rem;color:rgba(255,255,255,.9)}
+.mq-track span.dot{color:rgba(255,255,255,.3);padding:0}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* ─── SECTIONS ─── */
+.label{font-size:.62rem;letter-spacing:.36em;text-transform:uppercase;color:var(--lime);margin-bottom:1rem}
+.big-title{font-family:'Barlow Condensed';font-weight:900;font-style:italic;font-size:clamp(3rem,5.5vw,5.5rem);text-transform:uppercase;line-height:.88}
+
+/* ─── ABOUT ─── */
+.about{display:grid;grid-template-columns:1fr 1fr;min-height:80vh;position:relative}
+.about-img{position:relative;overflow:hidden}
+.about-img img{width:100%;height:100%;object-fit:cover;object-position:center;filter:brightness(.6) saturate(.65);transition:filter .6s,transform .6s}
+.about-img:hover img{filter:brightness(.8) saturate(.9);transform:scale(1.03)}
+.about-img::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,transparent 60%,var(--bark) 100%)}
+.about-img-border{position:absolute;top:0;bottom:0;right:0;width:3px;background:var(--lime);z-index:1}
+.about-copy{background:var(--bark);padding:5rem 4rem;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}
+.about-copy::before{content:'20';position:absolute;right:-2rem;top:50%;transform:translateY(-50%);font-family:'Bebas Neue';font-size:22rem;color:rgba(109,214,46,.03);line-height:1;pointer-events:none}
+.about-copy .big-title{margin-bottom:2rem}
+.about-copy p{font-size:.88rem;line-height:1.95;color:rgba(242,245,240,.55);margin-bottom:1.2rem}
+.about-copy p strong{color:var(--cream);font-weight:600}
+.est-pill{display:inline-flex;align-items:center;gap:1.2rem;margin-top:1.5rem;padding:1rem 1.6rem;border:1px solid rgba(109,214,46,.2);background:rgba(109,214,46,.05)}
+.est-n{font-family:'Bebas Neue';font-size:2.8rem;color:var(--lime);line-height:1}
+.est-t{font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;color:var(--dim);line-height:1.7}
+
+/* ─── GALLERY ─── */
+.gallery{background:var(--ink);padding:5rem 0}
+.gallery-head{padding:0 4rem 2.5rem}
+.gallery-grid{display:grid;grid-template-columns:2fr 1fr 1fr;height:420px;gap:3px}
+.gal-item{overflow:hidden;position:relative;cursor:pointer}
+.gal-item img{width:100%;height:100%;object-fit:cover;filter:brightness(.65) saturate(.6);transition:filter .5s,transform .6s}
+.gal-item:hover img{filter:brightness(.95) saturate(1);transform:scale(1.06)}
+.gal-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(6,8,6,.75) 0%,transparent 55%);opacity:0;transition:opacity .4s;display:flex;align-items:flex-end;padding:1.4rem}
+.gal-item:hover .gal-overlay{opacity:1}
+.gal-tag{font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:var(--lime)}
+.gal-logo{background:var(--moss);display:flex;align-items:center;justify-content:center}
+.gal-logo img{object-fit:contain;filter:none;padding:1.5rem}
+.gal-logo:hover img{transform:scale(1.04);filter:none}
+
+/* ─── ANNIVERSARY BAND ─── */
+.ann-band{background:var(--mid);padding:3.5rem 4rem;display:flex;align-items:center;gap:4rem;position:relative;overflow:hidden}
+.ann-band::before{content:'20';position:absolute;right:2rem;top:50%;transform:translateY(-50%);font-family:'Bebas Neue';font-size:18rem;color:rgba(0,0,0,.12);line-height:1;pointer-events:none}
+.ann-logo{width:160px;flex-shrink:0;filter:drop-shadow(0 4px 20px rgba(0,0,0,.5))}
+.ann-text h2{font-family:'Barlow Condensed';font-weight:900;font-style:italic;font-size:clamp(2rem,4vw,3.8rem);text-transform:uppercase;line-height:.88;color:var(--cream);margin-bottom:.8rem}
+.ann-text p{font-size:.85rem;color:rgba(255,255,255,.7);line-height:1.75;max-width:34rem}
+
+/* ─── CLASSES ─── */
+.classes{background:var(--moss);padding:7rem 4rem;position:relative;overflow:hidden}
+.classes::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--lime),transparent)}
+.classes-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4rem}
+.classes-sub{font-size:.78rem;color:var(--dim);max-width:16rem;text-align:right;line-height:1.75}
+
+/* Card grid — 3 cols, equal height rows */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(255,255,255,.04)}
+.card{background:var(--moss);display:flex;flex-direction:column;position:relative;overflow:hidden;transition:background .3s}
+.card:hover{background:var(--bark)}
+.card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--lime);transform:scaleX(0);transform-origin:left;transition:transform .4s}
+.card:hover::after{transform:scaleX(1)}
+
+/* Photo area */
+.card-photo{position:relative;height:220px;overflow:hidden;flex-shrink:0}
+.card-photo .slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1s}
+.card-photo .slide.on{opacity:1}
+.card-photo::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(6,8,6,.7) 0%,transparent 50%)}
+.photo-tag{position:absolute;bottom:12px;right:14px;z-index:2;font-size:.56rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(109,214,46,.75);font-family:'Barlow Condensed';font-weight:700}
+.photo-dots{position:absolute;bottom:14px;left:14px;z-index:2;display:flex;gap:4px}
+.pdot{width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.25);transition:background .4s}
+.pdot.on{background:var(--lime)}
+
+/* Card body */
+.card-body{padding:2rem 1.8rem 2.2rem;display:flex;flex-direction:column;flex:1}
+.card-n{font-family:'Bebas Neue';font-size:3.5rem;color:rgba(255,255,255,.04);line-height:1;margin-bottom:.5rem}
+.card-title{font-family:'Barlow Condensed';font-weight:900;font-style:italic;font-size:1.65rem;text-transform:uppercase;margin-bottom:.8rem}
+.card-desc{font-size:.8rem;line-height:1.85;color:var(--dim);flex:1}
+.card-badge{display:inline-block;margin-top:1.2rem;font-size:.56rem;letter-spacing:.22em;text-transform:uppercase;color:var(--lime);border:1px solid rgba(109,214,46,.28);padding:.25rem .7rem;width:fit-content}
+
+/* No-photo card (Ladies) */
+.card-icon-area{height:220px;display:flex;align-items:center;justify-content:center;position:relative;flex-shrink:0;overflow:hidden}
+.ladies-bg{position:absolute;inset:0;background:linear-gradient(135deg,#080d14 0%,#0d1828 60%,#06090f 100%)}
+.ladies-bg::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 60% 40%,rgba(109,214,46,.1),transparent 55%),radial-gradient(ellipse at 20% 75%,rgba(61,140,26,.07),transparent 40%)}
+.ladies-glyphs{position:relative;z-index:1;text-align:center}
+.ladies-glyphs .big-glyph{font-size:4rem;display:block;filter:drop-shadow(0 0 16px rgba(109,214,46,.4));animation:glyphPulse 3s ease-in-out infinite}
+@keyframes glyphPulse{0%,100%{transform:scale(1) rotate(-3deg)}50%{transform:scale(1.07) rotate(3deg)}}
+.spark-ring{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:110px;height:110px;border-radius:50%;border:1px solid rgba(109,214,46,.15);animation:ringBreath 2.5s ease-in-out infinite}
+@keyframes ringBreath{0%,100%{transform:translate(-50%,-50%) scale(.9);opacity:.3}50%{transform:translate(-50%,-50%) scale(1.1);opacity:.08}}
+
+/* ─── ACCORDION SECTIONS (Coaches + Fight Team) ─── */
+.accordion-section {
+  border-top: 1px solid rgba(109,214,46,.1);
+  border-bottom: 1px solid rgba(109,214,46,.1);
+  background: var(--bark);
+}
+.accordion-section + .accordion-section {
+  border-top: none;
+}
+.acc-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  cursor: pointer;
+  user-select: none;
+  transition: background .2s;
+}
+.acc-toggle:hover { background: rgba(109,214,46,.03); }
+.acc-title {
+  font-family: 'Barlow Condensed';
+  font-weight: 900;
+  font-style: italic;
+  font-size: clamp(1.6rem,3vw,2.4rem);
+  text-transform: uppercase;
+  line-height: 1;
+  color: var(--cream);
+}
+.acc-caret {
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: .78rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--lime);
+  transition: color .2s;
+  white-space: nowrap;
+}
+.acc-toggle:hover .acc-caret { color: var(--cream); }
+.acc-drawer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .6s cubic-bezier(.4,0,.2,1), opacity .4s;
+  opacity: 0;
+}
+.acc-drawer.open {
+  max-height: 2000px;
+  opacity: 1;
+  padding-bottom: 3rem;
+}
+
+/* Coaches grid */
+.coaches-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2px;
+  background: rgba(255,255,255,.04);
+  margin: 0 4rem;
+}
+.coach-card {
+  background: var(--moss);
+  display: flex;
+  gap: 0;
+  flex-direction: column;
+  transition: background .3s;
+}
+.coach-card:hover { background: var(--ink); }
+.coach-photo-placeholder {
+  height: 220px;
+  background: linear-gradient(135deg, #0a0f0a 0%, #131f13 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+  border-bottom: 2px solid rgba(109,214,46,.15);
+  position: relative;
+  overflow: hidden;
+}
+.coach-photo-placeholder::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 60%, rgba(109,214,46,.08), transparent 65%);
+}
+.coach-initials {
+  font-family: 'Bebas Neue';
+  font-size: 6rem;
+  color: rgba(109,214,46,.2);
+  line-height: 1;
+  position: relative;
+}
+.coach-photo-label {
+  font-size: .58rem;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: rgba(109,214,46,.35);
+  position: relative;
+}
+.coach-body { padding: 2rem; }
+.coach-name {
+  font-family: 'Barlow Condensed';
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--cream);
+  margin-bottom: .3rem;
+}
+.coach-role {
+  font-size: .62rem;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--lime);
+  margin-bottom: 1rem;
+}
+.coach-bio {
+  font-size: .82rem;
+  line-height: 1.85;
+  color: var(--dim);
+}
+
+/* Fight team placeholder */
+.team-placeholder {
+  margin: 0 4rem;
+  background: var(--moss);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 240px;
+  border: 1px dashed rgba(109,214,46,.2);
+}
+.team-placeholder-inner {
+  text-align: center;
+  padding: 3rem 2rem;
+  max-width: 420px;
+}
+.team-placeholder-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 0 12px rgba(109,214,46,.3));
+}
+.team-placeholder-inner h3 {
+  font-family: 'Barlow Condensed';
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: var(--cream);
+  margin-bottom: .8rem;
+}
+.team-placeholder-inner p {
+  font-size: .82rem;
+  line-height: 1.8;
+  color: var(--dim);
+}
+
+/* Mobile */
+@media(max-width:900px) {
+  .acc-toggle { padding: 1.5rem; }
+  .coaches-grid { grid-template-columns: 1fr; margin: 0 1.5rem; }
+  .team-placeholder { margin: 0 1.5rem; }
+}
+
+.location-map-wrap {
+  margin: 1.5rem 0;
+  border: 1px solid rgba(109,214,46,.15);
+  overflow: hidden;
+}
+.location-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.location-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  color: var(--dim);
+}
+.location-row svg {
+  color: var(--lime);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.location-row strong {
+  display: block;
+  font-size: .8rem;
+  color: var(--cream);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  margin-bottom: .2rem;
+}
+.location-row p {
+  font-size: .8rem;
+  line-height: 1.7;
+  color: var(--dim);
+}
+
+/* ─── REVIEWS ACCORDION ─── */
+.reviews{border-top:1px solid rgba(109,214,46,.1);border-bottom:1px solid rgba(109,214,46,.1)}
+.rev-toggle{display:flex;justify-content:space-between;align-items:center;padding:1.8rem 4rem;cursor:pointer;user-select:none;transition:background .2s}
+.rev-toggle:hover{background:rgba(109,214,46,.03)}
+.rev-left{display:flex;flex-direction:column;gap:.3rem}
+.rev-stars{color:var(--gold);font-size:1rem;letter-spacing:.1em}
+.rev-meta{font-size:.72rem;color:var(--dim);letter-spacing:.1em}
+.rev-caret{font-family:'Barlow Condensed';font-weight:700;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:var(--lime);transition:color .2s}
+.rev-toggle:hover .rev-caret{color:var(--cream)}
+.rev-drawer{max-height:0;overflow:hidden;transition:max-height .55s cubic-bezier(.4,0,.2,1),opacity .4s;opacity:0}
+.rev-drawer.open{max-height:600px;opacity:1;padding-bottom:2.5rem}
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.05);margin:0 4rem}
+.rev-card{background:var(--moss);padding:1.8rem;border-top:2px solid rgba(109,214,46,.15);transition:border-color .3s}
+.rev-card:hover{border-color:var(--lime)}
+.rev-card-stars{color:var(--gold);font-size:.82rem;margin-bottom:.8rem}
+.rev-card-text{font-size:.8rem;line-height:1.85;color:rgba(242,245,240,.6);margin-bottom:1rem;font-style:italic}
+.rev-card-author{font-size:.63rem;letter-spacing:.15em;text-transform:uppercase;color:var(--dim)}
+.rev-card-author span{color:var(--lime);font-size:.58rem}
+
+/* ─── LOCATION / HOURS ─── */
+.info{display:grid;grid-template-columns:1fr 1fr}
+.info-hours{background:var(--mid);padding:6rem 4rem}
+.info-hours .label{color:rgba(255,255,255,.55)}
+.info-hours .big-title{color:var(--cream);margin-bottom:3rem}
+.hrs{list-style:none;display:flex;flex-direction:column}
+.hrs li{display:flex;justify-content:space-between;align-items:center;padding:.85rem 0;border-bottom:1px solid rgba(255,255,255,.14);font-size:.8rem}
+.hrs li:last-child{border-bottom:none}
+.hrs-day{text-transform:uppercase;letter-spacing:.1em;font-size:.68rem;color:rgba(255,255,255,.6)}
+.hrs-time{font-family:'Barlow Condensed';font-weight:700;font-size:1rem;letter-spacing:.15em;color:var(--cream)}
+.open-dot{display:inline-flex;align-items:center;gap:.5rem;background:rgba(0,0,0,.18);padding:.4rem 1rem;font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--cream)}
+.open-dot::before{content:'';display:block;width:6px;height:6px;border-radius:50%;background:#a3ff6b;animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+
+/* 24/7 access badge */
+.access-band{display:flex;align-items:center;gap:1.5rem;margin:1.8rem 0 0}
+.access-247{display:flex;align-items:center;gap:1rem;border:1px solid rgba(109,214,46,.2);padding:.8rem 1.4rem;background:rgba(109,214,46,.05)}
+.access-n{font-family:'Bebas Neue';font-size:2.8rem;color:var(--lime);line-height:1}
+.access-t{font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.5);line-height:1.7}
+
+/* ─── TIMETABLE ─── */
+.timetable{margin-top:2.4rem;border-top:1px solid rgba(109,214,46,.12);padding-top:1.8rem}
+.tt-heading{display:flex;align-items:center;gap:.5rem;font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:var(--lime);margin-bottom:1.2rem}
+.tt-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:.5rem}
+.tt-scroll::-webkit-scrollbar{height:3px}
+.tt-scroll::-webkit-scrollbar-track{background:rgba(255,255,255,.04)}
+.tt-scroll::-webkit-scrollbar-thumb{background:rgba(109,214,46,.3)}
+.tt-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;background:rgba(255,255,255,.06);min-width:380px}
+.tt-col{background:var(--bark);display:flex;flex-direction:column}
+.tt-col-rest .tt-col-hdr{color:var(--dim)}
+.tt-col-hdr{background:var(--moss);padding:.7rem .8rem;font-family:'Barlow Condensed';font-weight:700;font-size:.82rem;letter-spacing:.18em;text-transform:uppercase;color:var(--cream);text-align:center;border-bottom:2px solid rgba(109,214,46,.2)}
+.tt-cell{padding:1rem .9rem;border-bottom:1px solid rgba(255,255,255,.04);border-left:3px solid transparent;flex:1}
+.tt-cell-time{font-size:.6rem;color:rgba(242,245,240,.38);letter-spacing:.04em;margin-bottom:.5rem;line-height:1.5}
+.tt-cell-name{font-family:'Barlow Condensed';font-weight:700;font-size:.95rem;text-transform:uppercase;letter-spacing:.06em;line-height:1.2}
+.tt-fighter{border-left-color:var(--gold)}.tt-fighter .tt-cell-name{color:var(--gold)}
+.tt-boxing{border-left-color:var(--lime)}.tt-boxing .tt-cell-name{color:var(--lime)}
+.tt-sparring{border-left-color:rgba(242,245,240,.35)}.tt-sparring .tt-cell-name{color:rgba(242,245,240,.8)}
+.tt-sc{border-left-color:#8ecf5a}.tt-sc .tt-cell-name{color:#8ecf5a}
+.tt-open{border-left-color:rgba(109,214,46,.15)}.tt-open .tt-cell-name{color:var(--dim)}.tt-open .tt-cell-time{color:rgba(242,245,240,.2)}
+@media(max-width:900px){.access-band{flex-wrap:wrap;gap:1rem;margin:1.5rem 0 0}}
+.info-location{background:var(--bark);padding:6rem 4rem;display:flex;flex-direction:column;justify-content:center}
+.info-location .big-title{margin-bottom:2rem}
+.addr-name{display:block;font-family:'Barlow Condensed';font-weight:700;font-size:1.4rem;color:var(--cream);letter-spacing:.05em;margin-bottom:.4rem}
+.addr-text{font-size:1rem;line-height:1.8;color:rgba(242,245,240,.48)}
+.dir-link{display:inline-flex;align-items:center;gap:.8rem;color:var(--lime);text-decoration:none;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-family:'Barlow Condensed';font-weight:700;transition:gap .2s;margin-top:1.5rem}
+.dir-link:hover{gap:1.3rem}
+
+/* ─── SPONSORS ─── */
+.sponsors{background:var(--bark);padding:5rem 0 4rem;border-top:1px solid rgba(109,214,46,.1);overflow:hidden}
+.sponsors .label,.sponsors .big-title{padding:0 4rem;text-align:center}
+.sponsors .big-title{margin-bottom:3rem}
+.sp-wrap{position:relative;overflow:hidden;mask-image:linear-gradient(to right,transparent,black 8%,black 92%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,black 8%,black 92%,transparent)}
+.sp-track{display:flex;align-items:center;width:max-content;animation:spScroll 40s linear infinite}
+.sp-track:hover{animation-play-state:paused}
+@keyframes spScroll{to{transform:translateX(-50%)}}
+.sp-logo{flex-shrink:0;width:170px;height:96px;display:flex;align-items:center;justify-content:center;padding:1rem 1.5rem;border-right:1px solid rgba(255,255,255,.04);transition:background .3s}
+.sp-logo:hover{background:rgba(109,214,46,.06)}
+.sp-logo img{max-width:100%;max-height:64px;width:auto;height:auto;object-fit:contain;filter:grayscale(1) brightness(.7);transition:filter .35s}
+.sp-logo:hover img{filter:grayscale(0) brightness(1)}
+
+/* ─── FOOTER ─── */
+footer{background:var(--ink);padding:2.2rem 4rem;display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(109,214,46,.08)}
+.foot-logo{font-family:'Bebas Neue';font-size:1.3rem;letter-spacing:.1em;color:var(--cream)}
+.foot-logo em{color:var(--lime);font-style:normal}
+.foot-fb{display:inline-flex;align-items:center;gap:.5rem;color:var(--dim);text-decoration:none;font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;border:1px solid rgba(255,255,255,.07);padding:.5rem 1rem;transition:color .2s,border-color .2s}
+.foot-fb:hover{color:var(--lime);border-color:rgba(109,214,46,.35)}
+.foot-copy{font-size:.62rem;color:var(--dim);letter-spacing:.1em;text-transform:uppercase}
+
+/* ─── REVEAL ─── */
+.rv{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}
+.rv.on{opacity:1;transform:none}
+.rv2{transition-delay:.15s}.rv3{transition-delay:.28s}
+
+/* ─── ANIMS ─── */
+@keyframes up{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:900px){
+  .nav-links{display:none}
+  .burger{display:flex}
+  #nav{padding:1.2rem 1.5rem}
+  .hero-body{grid-template-columns:1fr;padding:0 1.5rem 4rem}
+  .hero-stats{display:none}
+  .hero-eyebrow{letter-spacing:.18em;font-size:.56rem;flex-wrap:wrap}
+  .hero-cta{flex-wrap:wrap;gap:.8rem}
+  .about{grid-template-columns:1fr}
+  .about-img{min-height:280px}
+  .about-img::after{display:none}
+  .about-copy{padding:3rem 1.5rem}
+  .gallery-grid{grid-template-columns:1fr 1fr;height:auto}
+  .gallery-head{padding:0 1.5rem 2rem}
+  .gal-item{height:200px}
+  .ann-band{flex-direction:column;gap:2rem;padding:3rem 1.5rem}
+  .ann-logo{width:110px}
+  .classes{padding:4rem 1.5rem}
+  .classes-head{flex-direction:column;align-items:flex-start;gap:1rem}
+  .classes-sub{text-align:left;max-width:100%}
+  .cards{grid-template-columns:1fr}
+  .rev-toggle{padding:1.4rem 1.5rem;min-height:56px}
+  .rev-grid{grid-template-columns:1fr;margin:0 1.5rem}
+  .info{grid-template-columns:1fr}
+  .info-hours,.info-location{padding:4rem 1.5rem}
+  .sponsors .label,.sponsors .big-title{padding:0 1.5rem}
+  footer{flex-direction:column;gap:1rem;text-align:center;padding:2rem 1.5rem}
+  .sp-logo{width:140px;height:80px}
+  .acc-toggle{min-height:60px}
+}
+
+/* ─── FIGHT TEAM SLIDESHOW ─── */
+.team-slideshow {
+  position: relative;
+  margin: 0 4rem;
+  height: 520px;
+  overflow: hidden;
+  background: var(--ink);
+}
+.team-slides { position: relative; width: 100%; height: 100%; }
+.team-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center top;
+  opacity: 0;
+  transition: opacity .9s ease;
+}
+.team-slide.on { opacity: 1; }
+.team-slide::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(6,8,6,.7) 0%, transparent 50%);
+}
+/* Arrows */
+.team-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(6,8,6,.6);
+  border: 1px solid rgba(109,214,46,.3);
+  color: var(--lime);
+  font-size: 1.2rem;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .2s, border-color .2s;
+  backdrop-filter: blur(4px);
+}
+.team-arrow:hover { background: rgba(109,214,46,.15); border-color: var(--lime); }
+.team-prev { left: 1rem; }
+.team-next { right: 1rem; }
+/* Counter */
+.team-counter {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  z-index: 10;
+  font-size: .62rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: rgba(109,214,46,.7);
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  background: rgba(6,8,6,.5);
+  padding: .3rem .7rem;
+  backdrop-filter: blur(4px);
+}
+/* Dots */
+.team-dots {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 80%;
+}
+.team-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.25);
+  cursor: pointer;
+  transition: background .3s, transform .2s;
+}
+.team-dot.on { background: var(--lime); transform: scale(1.3); }
+@media(max-width:900px) {
+  .team-slideshow { margin: 0 1.5rem; height: 320px; }
+}
+
+
+/* ─── CONTACT / ENQUIRY FORM ─── */
+.contact-band {
+  background: var(--bark);
+  border-top: 1px solid rgba(109,214,46,.12);
+  padding: 6rem 4rem;
+  position: relative;
+  overflow: hidden;
+}
+.contact-band::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 50% 80% at 15% 50%, rgba(61,140,26,.08), transparent);
+  pointer-events: none;
+}
+.contact-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.contact-band-title {
+  font-family: 'Barlow Condensed';
+  font-weight: 900;
+  font-style: italic;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  text-transform: uppercase;
+  line-height: .88;
+  color: var(--cream);
+  margin-bottom: 1.2rem;
+}
+.contact-band-title em { color: var(--lime); font-style: normal; }
+.contact-band-sub {
+  font-size: .85rem;
+  color: var(--dim);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  font-size: .75rem;
+  color: var(--lime);
+  letter-spacing: .1em;
+}
+
+/* Form */
+.enquiry-form { display: flex; flex-direction: column; gap: 1.2rem; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+.form-group { display: flex; flex-direction: column; gap: .45rem; }
+.form-group label {
+  font-size: .6rem;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: var(--lime);
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background: var(--moss);
+  border: 1px solid rgba(255,255,255,.08);
+  color: var(--cream);
+  font-family: 'Sora', sans-serif;
+  font-size: .85rem;
+  padding: .85rem 1rem;
+  outline: none;
+  transition: border-color .2s;
+  width: 100%;
+  resize: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.form-group input::placeholder,
+.form-group textarea::placeholder { color: rgba(242,245,240,.25); }
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus { border-color: var(--lime); }
+.form-group select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236dd62e' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.5rem;
+  cursor: pointer;
+}
+.form-group select option { background: var(--moss); }
+.form-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .7rem;
+  background: var(--mid);
+  color: var(--cream);
+  border: none;
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  padding: 1.1rem 2.5rem;
+  cursor: pointer;
+  transition: background .2s, transform .15s;
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+  align-self: flex-start;
+}
+.form-submit:hover { background: var(--lime); color: var(--ink); transform: translateY(-2px); }
+.form-note {
+  font-size: .65rem;
+  color: var(--dim);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-top: -.4rem;
+}
+@media(max-width:900px) {
+  .contact-band { padding: 4rem 1.5rem; }
+  .contact-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+  .form-row { grid-template-columns: 1fr; }
+  .form-submit { width: 100%; }
+}
+
+
+/* ─── LIGHTBOX ─── */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.92);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .35s;
+  backdrop-filter: blur(8px);
+}
+.lightbox.open {
+  opacity: 1;
+  pointer-events: all;
+}
+.lb-img-wrap {
+  max-width: 90vw;
+  max-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lb-img-wrap img {
+  max-width: 90vw;
+  max-height: 80vh;
+  object-fit: contain;
+  border: 1px solid rgba(109,214,46,.2);
+  transform: scale(.95);
+  transition: transform .35s;
+}
+.lightbox.open .lb-img-wrap img {
+  transform: scale(1);
+}
+.lb-caption {
+  margin-top: 1rem;
+  font-size: .72rem;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: var(--lime);
+  font-family: 'Barlow Condensed';
+  font-weight: 700;
+}
+.lb-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: none;
+  border: 1px solid rgba(255,255,255,.2);
+  color: var(--cream);
+  font-size: 1rem;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color .2s, color .2s;
+}
+.lb-close:hover { border-color: var(--lime); color: var(--lime); }
+.lb-prev, .lb-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(6,8,6,.6);
+  border: 1px solid rgba(109,214,46,.3);
+  color: var(--lime);
+  font-size: 1.2rem;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .2s;
+  z-index: 2;
+}
+.lb-prev:hover, .lb-next:hover { background: rgba(109,214,46,.15); }
+.lb-prev { left: 1.5rem; }
+.lb-next { right: 1.5rem; }
+.gal-item { cursor: zoom-in; }
+
+/* ─── MINI CTA STRIP ─── */
+.mini-cta{background:var(--moss);border-top:1px solid rgba(109,214,46,.18);border-bottom:1px solid rgba(109,214,46,.18);padding:2.2rem 4rem;display:flex;align-items:center;justify-content:space-between;gap:2rem}
+.mini-cta-text{font-family:'Barlow Condensed';font-weight:700;font-style:italic;font-size:1.4rem;text-transform:uppercase;color:var(--cream);letter-spacing:.05em}
+@media(max-width:900px){.mini-cta{flex-direction:column;align-items:flex-start;padding:2rem 1.5rem;gap:1.2rem}}
+@media(max-width:480px){.mini-cta{padding:1.8rem 1.2rem}.mini-cta-text{font-size:1.2rem}.mini-cta .btn-g{width:100%;justify-content:center}}
+
+/* ─── REVIEWS PLAIN ─── */
+.reviews-plain{background:var(--bark);padding:6rem 4rem;border-top:1px solid rgba(109,214,46,.1)}
+.reviews-plain-head{margin-bottom:3rem}
+.reviews-plain-head .big-title{margin-bottom:1rem}
+.rev-rating{display:flex;align-items:center;gap:.8rem;margin-top:.8rem}
+.rev-grid-plain{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.05)}
+.rev-cta-row{text-align:center;padding:2rem 0 .5rem}
+.rev-google-link{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--lime);text-decoration:none;border-bottom:1px solid rgba(109,214,46,.3);padding-bottom:2px;transition:border-color .2s}
+.rev-google-link:hover{border-color:var(--lime)}
+@media(max-width:900px){.reviews-plain{padding:4rem 1.5rem}.rev-grid-plain{grid-template-columns:1fr}}
+@media(max-width:480px){.reviews-plain{padding:3rem 1.2rem}}
+
+/* ─── COACHES PLAIN ─── */
+.coaches-plain{background:var(--ink);padding:6rem 0;border-top:1px solid rgba(109,214,46,.1)}
+.coaches-plain-head{padding:0 4rem;margin-bottom:3rem}
+.coaches-plain-head .big-title{margin-top:.5rem}
+.coaches-plain .coaches-grid{margin:0 4rem}
+@media(max-width:900px){.coaches-plain{padding:4rem 0}.coaches-plain-head{padding:0 1.5rem;margin-bottom:2rem}.coaches-plain .coaches-grid{grid-template-columns:1fr;margin:0 1.5rem}}
+@media(max-width:480px){.coaches-plain{padding:3rem 0}.coaches-plain-head{padding:0 1.2rem}.coaches-plain .coaches-grid{margin:0 1rem}}
+
+/* ─── STICKY CONTACT ─── */
+.sticky-contact{position:fixed;bottom:1.5rem;right:1.5rem;display:flex;flex-direction:column;gap:.6rem;z-index:300}
+.sticky-btn{display:flex;align-items:center;gap:.6rem;padding:.65rem 1rem;border-radius:2rem;font-family:'Sora',sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.06em;text-decoration:none;white-space:nowrap;transition:transform .2s,box-shadow .2s;box-shadow:0 4px 16px rgba(0,0,0,.4)}
+.sticky-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.sticky-btn.phone{background:var(--lime);color:var(--ink)}
+.sticky-btn.enquiry{background:var(--bark);color:var(--cream);border:1px solid rgba(109,214,46,.3)}
+.sticky-btn svg{flex-shrink:0}
+@media(max-width:480px){
+  /* ── Hero ── */
+  .hero-eyebrow{letter-spacing:.1em;font-size:.52rem}
+  .hero-eyebrow::before{display:none}
+  .hero-h1{font-size:clamp(3.4rem,13vw,6rem)}
+  .hero-sub{font-size:.82rem;margin-top:1.2rem}
+  .hero-cta{flex-direction:column;align-items:stretch;gap:.75rem}
+  .btn-g{justify-content:center;padding:.95rem 1.4rem;font-size:.9rem}
+  .btn-ghost{text-align:center;padding:.6rem 0}
+
+  /* ── Gallery ── */
+  .gallery-grid{grid-template-columns:1fr}
+  .gal-item{height:220px}
+  .gallery-head{padding:0 1.2rem 1.5rem}
+
+  /* ── About ── */
+  .about-img{min-height:220px}
+  .about-copy{padding:2.5rem 1.2rem}
+
+  /* ── Anniversary ── */
+  .ann-band{padding:2.5rem 1.2rem;gap:1.5rem}
+  .ann-text h2{font-size:clamp(1.8rem,7vw,3rem)}
+
+  /* ── Classes ── */
+  .classes{padding:3rem 1.2rem}
+  .card-photo{height:180px}
+  .card-body{padding:1.5rem 1.4rem 1.8rem}
+
+  /* ── Coaches ── */
+  .coaches-grid{margin:0 1rem}
+  .coach-body{padding:1.4rem 1.2rem}
+
+  /* ── Fight team ── */
+  .team-slideshow{margin:0 1rem;height:240px}
+
+  /* ── Reviews ── */
+  .rev-toggle{padding:1.2rem 1rem}
+  .rev-grid{margin:0 1rem}
+
+  /* ── Accordion ── */
+  .acc-toggle{padding:1.2rem 1rem}
+  .acc-title{font-size:1.4rem}
+  .acc-caret{font-size:.68rem}
+
+  /* ── Hours / Location ── */
+  .info-hours,.info-location{padding:3rem 1.2rem}
+
+  /* ── Contact form ── */
+  .contact-band{padding:3rem 1.2rem}
+
+  /* ── Sponsors ── */
+  .sponsors .label,.sponsors .big-title{padding:0 1.2rem}
+  .sp-logo{width:120px;height:70px}
+
+  /* ── Footer ── */
+  footer{padding:1.8rem 1.2rem}
+
+  /* ── Sticky contact (44px min touch targets) ── */
+  .sticky-contact{bottom:1rem;right:1rem}
+  .sticky-btn{padding:.9rem;min-width:44px;min-height:44px;justify-content:center}
+  .sticky-btn span{display:none}
+}
+
+</style>
+</head>
+<body>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a class="nav-logo" href="#"><em>D</em>ENNING<em>BC</em></a>
+  <ul class="nav-links">
+    <li><a href="#classes">Classes</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#location">Location</a></li>
+    <li><a href="#contact">Contact</a></li>
+  <button class="burger" id="burger" onclick="toggleDrawer()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- DRAWER -->
+<div class="drawer" id="drawer">
+  <div class="drawer-inner">
+    <nav class="drawer-nav">
+      <a href="#classes"  onclick="closeDrawer()"><span class="dn">01</span>Classes</a>
+      <a href="#about"    onclick="closeDrawer()"><span class="dn">02</span>About</a>
+      <a href="#reviews"  onclick="closeDrawer()"><span class="dn">03</span>Reviews</a>
+      <a href="#gallery"  onclick="closeDrawer()"><span class="dn">04</span>Gallery</a>
+      <a href="#location" onclick="closeDrawer()"><span class="dn">05</span>Location</a>
+      <a href="#contact"  onclick="closeDrawer()"><span class="dn">06</span>Contact</a>
+    </nav>
+    <div class="drawer-foot">
+      <p class="drawer-addr">Unit 2/17 Mummery Crescent<br>East Bunbury WA 6230</p>
+      <a class="drawer-link" href="https://maps.google.com/?q=Unit+2+17+Mummery+Crescent+East+Bunbury+WA+6230" target="_blank">Get Directions →</a>
+      <a class="drawer-fb" href="https://www.facebook.com/DenningBoxingClubInc/" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        Follow us on Facebook
+      </a>
+    </div>
+  </div>
+</div>
+<div class="veil" id="veil" onclick="closeDrawer()"></div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-slash"></div>
+  <div class="hero-body">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Est. 2006 · East Bunbury, WA · Peter Stokes</p>
+      <h1 class="hero-h1">DENNING<span class="accent">BOXING</span>CLUB</h1>
+      <p class="hero-sub">Where champions are built and community is forged. Heart, soul, and sweat — every session since 2006.</p>
+      <div class="hero-cta">
+        <a class="btn-g" href="#contact">Book a Free Trial →</a>
+        <a class="btn-ghost" href="#classes">See Classes ↓</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-n">20</div><div class="stat-l">Years Running</div></div>
+      <div><div class="stat-n">24/7</div><div class="stat-l">Always Open</div></div>
+      <div><div class="stat-n">5★</div><div class="stat-l">Community Rated</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="mq-track">
+    <span>Train Hard</span><span class="dot">✦</span><span>Fight Smart</span><span class="dot">✦</span>
+    <span>Ladies Classes</span><span class="dot">✦</span><span>Kids Program</span><span class="dot">✦</span>
+    <span>Open 24 Hours</span><span class="dot">✦</span><span>Est. 2006</span><span class="dot">✦</span>
+    <span>East Bunbury WA</span><span class="dot">✦</span><span>All Levels Welcome</span><span class="dot">✦</span>
+    <span>Train Hard</span><span class="dot">✦</span><span>Fight Smart</span><span class="dot">✦</span>
+    <span>Ladies Classes</span><span class="dot">✦</span><span>Kids Program</span><span class="dot">✦</span>
+    <span>Open 24 Hours</span><span class="dot">✦</span><span>Est. 2006</span><span class="dot">✦</span>
+    <span>East Bunbury WA</span><span class="dot">✦</span><span>All Levels Welcome</span><span class="dot">✦</span>
+  </div>
+</div>
+
+<!-- CLASSES -->
+<section class="classes" id="classes">
+  <div class="classes-head">
+    <div class="rv">
+      <p class="label">What We Offer</p>
+      <h2 class="big-title">OUR<br>CLASSES</h2>
+    </div>
+    <p class="classes-sub rv rv2">All sessions welcome beginners and experienced boxers alike. No ego — just work.</p>
+  </div>
+  <div class="cards">
+
+    <!-- BOX FIT -->
+    <div class="card rv">
+      <div class="card-photo">
+        <div class="slide on" style="background-image:url('images/boxfit-1.jpg')"></div>
+        <div class="slide" style="background-image:url('images/boxfit-2.jpg')"></div>
+        <span class="photo-tag">Box Fit</span>
+        <div class="photo-dots"><div class="pdot on"></div><div class="pdot"></div></div>
+      </div>
+      <div class="card-body">
+        <div class="card-n">01</div>
+        <h3 class="card-title">Box Fit</h3>
+        <p class="card-desc">Full technique and conditioning — footwork, combinations, bag work, pad sessions, and sparring. Open to all ages and fitness levels. Well-spaced, well-priced.</p>
+        <span class="card-badge">All Levels</span>
+      </div>
+    </div>
+
+    <!-- LADIES -->
+    <div class="card rv rv2">
+      <div class="card-photo">
+        <div class="slide on" style="background-image:url('images/ladies-1.jpg')"></div>
+        <span class="photo-tag">Ladies Only</span>
+        <div class="photo-dots"><div class="pdot on"></div></div>
+      </div>
+      <div class="card-body">
+        <div class="card-n">02</div>
+        <h3 class="card-title">Ladies Class</h3>
+        <p class="card-desc">"Lots of laughs and now feeling pumped for the day." Our ladies sessions are high-energy, welcoming, and seriously effective. A great bunch, every time.</p>
+        <span class="card-badge">Women Only</span>
+      </div>
+    </div>
+
+    <!-- KIDS -->
+    <div class="card rv rv3">
+      <div class="card-photo">
+        <div class="slide on" style="background-image:url('images/kids-1.jpg')"></div>
+        <div class="slide" style="background-image:url('images/kids-2.jpg')"></div>
+        <span class="photo-tag">Junior Program</span>
+        <div class="photo-dots"><div class="pdot on"></div><div class="pdot"></div></div>
+      </div>
+      <div class="card-body">
+        <div class="card-n">03</div>
+        <h3 class="card-title">Kids Program</h3>
+        <p class="card-desc">Structured boxing fundamentals for young athletes. Discipline, focus, fitness, and fun — inspiring the next generation of champions.</p>
+        <span class="card-badge">Youth</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- MINI CTA -->
+<div class="mini-cta">
+  <p class="mini-cta-text">Ready to start your boxing journey?</p>
+  <a class="btn-g" href="#contact">Get in Touch →</a>
+</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="images/about.jpg" alt="Denning Boxing Club community"/ loading="lazy"/>
+    <div class="about-img-border"></div>
+  </div>
+  <div class="about-copy rv">
+    <p class="label">Our Story</p>
+    <h2 class="big-title">BUILT ON<br>HEART &<br>SOUL</h2>
+    <br>
+    <p>Founded in <strong>2006 by Peter Stokes</strong>, Denning Boxing Club has been the heartbeat of East Bunbury's boxing community for two decades — one of the most beloved community gyms in Western Australia.</p>
+    <p>We've inspired <strong>kids, women, beginners, and seasoned fighters</strong> to lace up, push limits, and find something real. Every bag, every session, every laugh — built with heart.</p>
+    <div class="est-pill">
+      <div class="est-n">20</div>
+      <div class="est-t">Years of<br>Community Boxing<br>Est. 2006</div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews-plain" id="reviews">
+  <div class="reviews-plain-head rv">
+    <p class="label">What People Say</p>
+    <h2 class="big-title">WHAT MEMBERS<br>ARE SAYING</h2>
+    <div class="rev-rating">
+      <span class="rev-stars">★★★★★</span>
+      <span class="rev-meta">5.0 · 3 Reviews</span>
+    </div>
+  </div>
+  <div class="rev-grid rev-grid-plain">
+    <div class="rev-card rv">
+      <div class="rev-card-stars">★★★★★</div>
+      <p class="rev-card-text">"Awesome set up — everything you need to train and bags are well spaced apart. Well priced."</p>
+      <p class="rev-card-author">Adam Shazam <span>· Local Guide</span></p>
+    </div>
+    <div class="rev-card rv rv2">
+      <div class="rev-card-stars">★★★★★</div>
+      <p class="rev-card-text">"Really enjoyed the ladies class. So much fun with a great bunch of ladies, lots of laughs and feeling pumped for the day!"</p>
+      <p class="rev-card-author">jayk Lindroth <span>· Member</span></p>
+    </div>
+    <div class="rev-card rv rv3">
+      <div class="rev-card-stars">★★★★★</div>
+      <p class="rev-card-text">"John has done an amazing job — inspiring kids and women to take up the sport while having great fun and getting fitter."</p>
+      <p class="rev-card-author">Cliff Reeve <span>· Member</span></p>
+    </div>
+  </div>
+  <div class="rev-cta-row rv">
+    <a href="https://g.page/r/denning-boxing-club/review" target="_blank" rel="noopener" class="rev-google-link">★ Leave a Review on Google</a>
+  </div>
+</section>
+
+<!-- COACHES -->
+<section class="coaches-plain" id="coaches">
+  <div class="coaches-plain-head rv">
+    <p class="label">The People Behind The Gloves</p>
+    <h2 class="big-title">MEET OUR<br>COACHES</h2>
+  </div>
+  <div class="coaches-grid">
+
+    <div class="coach-card rv">
+      <div class="coach-photo-placeholder" style="padding:0;overflow:hidden;">
+        <img src="images/coach-john.jpg" alt="Coach John" style="width:100%;height:100%;object-fit:contain;display:block;background:#0e130e;" loading="lazy"/>
+      </div>
+      <div class="coach-body">
+        <h3 class="coach-name">John</h3>
+        <p class="coach-role">Head Coach &amp; Founder</p>
+        <p class="coach-bio">John is a passionate and dedicated boxing coach who's built more than just a gym at Denning Boxing Club Inc. — he's created a strong, welcoming community. Whether it's helping beginners feel comfortable or pushing experienced fighters to improve, he genuinely cares about the people who walk through the doors.</p>
+      </div>
+    </div>
+
+    <div class="coach-card rv rv2">
+      <div class="coach-photo-placeholder" style="padding:0;overflow:hidden;">
+        <img src="images/coach-chris.jpg" alt="Coach Chris" style="width:100%;height:100%;object-fit:contain;display:block;background:#0e130e;" loading="lazy"/>
+      </div>
+      <div class="coach-body">
+        <h3 class="coach-name">Chris</h3>
+        <p class="coach-role">Coach</p>
+        <p class="coach-bio">A passionate coach bringing energy and expertise to every session. Chris works with members of all levels — from first-timers finding their feet, to fighters preparing for competition.</p>
+      </div>
+    </div>
+
+    <div class="coach-card rv rv3">
+      <div class="coach-photo-placeholder" style="padding:0;overflow:hidden;">
+        <img src="images/coach-derek.jpg" alt="Coach Derek" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block;filter:brightness(.9) saturate(.85);" loading="lazy"/>
+      </div>
+      <div class="coach-body">
+        <h3 class="coach-name">Derek</h3>
+        <p class="coach-role">Coach</p>
+        <p class="coach-bio">Bringing dedication and experience to every session, Derek helps members push their limits and develop solid technique — whether they're stepping into the gym for the first time or preparing for the ring.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- GALLERY -->
+<div class="gallery" id="gallery">
+  <div class="gallery-head rv">
+    <p class="label">Inside The Club</p>
+    <h2 class="big-title">THE GYM</h2>
+  </div>
+  <div class="gallery-grid">
+    <div class="gal-item rv">
+      <img src="images/hero-bg.jpg" alt="The team"/ loading="lazy"/>
+      <div class="gal-overlay"><span class="gal-tag">The Team</span></div>
+    </div>
+    <div class="gal-item gal-logo rv rv2">
+      <img src="images/gallery-2.jpg" alt="20th Anniversary"/ loading="lazy"/>
+      <div class="gal-overlay"><span class="gal-tag">20th Anniversary</span></div>
+    </div>
+    <div class="gal-item rv rv3">
+      <img src="images/gallery-3.jpg" alt="Training session"/ loading="lazy"/>
+      <div class="gal-overlay"><span class="gal-tag">Training Session</span></div>
+    </div>
+    <div class="gal-item rv">
+      <img src="images/gallery-4.jpg" alt="Fight night"/ loading="lazy"/>
+      <div class="gal-overlay"><span class="gal-tag">Fight Night</span></div>
+    </div>
+    <div class="gal-item rv rv2">
+      <img src="images/gallery-5.jpg" alt="Corner crew"/ loading="lazy"/>
+      <div class="gal-overlay"><span class="gal-tag">Corner Crew</span></div>
+    </div>
+    <div class="gal-item rv rv3">
+      <img src="images/gallery-6.jpg" alt="Gym session"/ loading="lazy"/>
+      <div class="gal-overlay"><span class="gal-tag">Gym Session</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ANNIVERSARY -->
+<div class="ann-band">
+  <img class="ann-logo" src="images/gallery-2.jpg" alt="20th Anniversary Logo"/ loading="lazy"/>
+  <div class="ann-text rv">
+    <h2>20 YEARS<br>STILL SWINGING</h2>
+    <p>In 2026, Denning Boxing Club celebrated 20 years of building champions and community in East Bunbury. The Denning Boxing Dice Run brought the whole region together — and we're just getting started.</p>
+  </div>
+</div>
+
+<!-- FIGHT TEAM -->
+<section class="accordion-section" id="fightteam">
+  <div class="acc-toggle" onclick="toggleAcc('teamDrawer','teamCaret')">
+    <div class="acc-left">
+      <p class="label" style="margin-bottom:.3rem">Representing Denning</p>
+      <h2 class="acc-title">MEET OUR TEAM</h2>
+    </div>
+    <span class="acc-caret" id="teamCaret">▾ Meet The Fight Team</span>
+  </div>
+  <div class="acc-drawer" id="teamDrawer">
+    <div class="team-slideshow">
+      <div class="team-slides">
+        <div class="team-slide on" style="background-image:url('images/team-1.jpg')"></div>
+        <div class="team-slide " style="background-image:url('images/team-2.jpg')"></div>
+        <div class="team-slide " style="background-image:url('images/team-3.jpg')"></div>
+        <div class="team-slide " style="background-image:url('images/team-4.jpg')"></div>
+        <div class="team-slide " style="background-image:url('images/team-5.jpg')"></div>
+        <div class="team-slide " style="background-image:url('images/team-6.jpg')"></div>
+        <div class="team-slide " style="background-image:url('images/team-7.jpg')"></div>
+        <div class="team-slide " style="background-image:url('images/team-8.jpg')"></div>
+        <div class="team-slide " style="background-image:url('images/gallery-4.jpg')"></div>
+        
+      </div>
+      <!-- Prev / Next -->
+      <button class="team-arrow team-prev" onclick="shiftTeam(-1)">&#8592;</button>
+      <button class="team-arrow team-next" onclick="shiftTeam(1)">&#8594;</button>
+      <!-- Counter -->
+      <div class="team-counter"><span id="teamCur">1</span> / 9</div>
+      <!-- Dots -->
+      <div class="team-dots">
+        <div class="team-dot on" onclick="goTeamSlide(0)"></div>
+        <div class="team-dot " onclick="goTeamSlide(1)"></div>
+        <div class="team-dot " onclick="goTeamSlide(2)"></div>
+        <div class="team-dot " onclick="goTeamSlide(3)"></div>
+        <div class="team-dot " onclick="goTeamSlide(4)"></div>
+        <div class="team-dot " onclick="goTeamSlide(5)"></div>
+        <div class="team-dot " onclick="goTeamSlide(6)"></div>
+        <div class="team-dot " onclick="goTeamSlide(7)"></div>
+        <div class="team-dot " onclick="goTeamSlide(8)"></div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INFO -->
+<div class="info" id="location">
+  <div class="info-hours">
+    <p class="label">We're Always Here</p>
+    <h2 class="big-title">HOURS</h2>
+
+    <div class="access-band">
+      <div class="access-247">
+        <span class="access-n">24/7</span>
+        <span class="access-t">Gym Access<br>All Week</span>
+      </div>
+      <div class="open-dot">Open Right Now</div>
+    </div>
+
+    <div class="timetable">
+      <p class="tt-heading">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Class Timetable
+      </p>
+      <div class="tt-scroll">
+        <div class="tt-grid">
+
+          <div class="tt-col">
+            <div class="tt-col-hdr">Mon</div>
+            <div class="tt-cell tt-fighter">
+              <div class="tt-cell-time">6:00 – 7:00pm</div>
+              <div class="tt-cell-name">Fighter Class</div>
+            </div>
+          </div>
+
+          <div class="tt-col">
+            <div class="tt-col-hdr">Tue</div>
+            <div class="tt-cell tt-boxing">
+              <div class="tt-cell-time">5:30 – 6:30pm</div>
+              <div class="tt-cell-name">Boxing Class</div>
+            </div>
+            <div class="tt-cell tt-sparring">
+              <div class="tt-cell-time">6:00 – 7:00pm</div>
+              <div class="tt-cell-name">Sparring</div>
+            </div>
+          </div>
+
+          <div class="tt-col">
+            <div class="tt-col-hdr">Wed</div>
+            <div class="tt-cell tt-sc">
+              <div class="tt-cell-time">6:00 – 7:00pm</div>
+              <div class="tt-cell-name">Strength &amp; Conditioning</div>
+            </div>
+          </div>
+
+          <div class="tt-col">
+            <div class="tt-col-hdr">Thu</div>
+            <div class="tt-cell tt-boxing">
+              <div class="tt-cell-time">5:30 – 6:30pm</div>
+              <div class="tt-cell-name">Boxing Class</div>
+            </div>
+          </div>
+
+          <div class="tt-col tt-col-rest">
+            <div class="tt-col-hdr">Fri – Sun</div>
+            <div class="tt-cell tt-open">
+              <div class="tt-cell-time">24hr Access</div>
+              <div class="tt-cell-name">Open Gym</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="info-location">
+    <p class="label">Find Us</p>
+    <h2 class="big-title">COME<br>TRAIN</h2>
+    <div class="location-map-wrap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5!2d115.6371!3d-33.3274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a356f0c5c5c5c5b%3A0x0!2sUnit+2%2F17+Mummery+Crescent%2C+East+Bunbury+WA+6230!5e0!3m2!1sen!2sau!4v1"
+        width="100%" height="220" style="border:0;filter:invert(.9) hue-rotate(180deg) saturate(0.4) brightness(0.85);"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <div class="location-details">
+      <div class="location-row">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <div>
+          <strong>Denning Boxing Club Inc.</strong>
+          <p>Unit 2/17 Mummery Crescent<br>East Bunbury WA 6230</p>
+        </div>
+      </div>
+      <div class="location-row">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" stroke="none" font-weight="bold">P</text></svg>
+        <div>
+          <strong>Parking</strong>
+          <p>Free off-street parking available</p>
+        </div>
+      </div>
+      <a class="dir-link" href="https://maps.google.com/?q=Unit+2+17+Mummery+Crescent+East+Bunbury+WA+6230" target="_blank" rel="noopener">Get Directions →</a>
+    </div>
+  </div>
+</div>
+
+<!-- SPONSORS -->
+<section class="sponsors">
+  <p class="label">Proudly Supported By</p>
+  <h2 class="big-title">OUR SPONSORS</h2>
+  <div class="sp-wrap">
+    <div class="sp-track">
+      <div class="sp-logo"><img src="images/sponsor-1.jpg" alt="Novel Smash Repairs"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-2.jpg" alt="Roof West"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-3.jpg" alt="South West Riders"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-4.jpg" alt="Novus Glass"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-5.jpg" alt="Spudshed"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-6.jpg" alt="Last Slice"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-7.jpg" alt="MGM Bulk"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-8.jpg" alt="Mitsubishi Bunbury"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-9.jpg" alt="Nicola's Ristorante"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-10.jpg" alt="ARB Bunbury"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-11.jpg" alt="Bunbury Harley-Davidson"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-1.jpg" alt="Novel Smash Repairs"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-2.jpg" alt="Roof West"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-3.jpg" alt="South West Riders"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-4.jpg" alt="Novus Glass"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-5.jpg" alt="Spudshed"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-6.jpg" alt="Last Slice"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-7.jpg" alt="MGM Bulk"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-8.jpg" alt="Mitsubishi Bunbury"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-9.jpg" alt="Nicola's Ristorante"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-10.jpg" alt="ARB Bunbury"/ loading="lazy"/></div><div class="sp-logo"><img src="images/sponsor-11.jpg" alt="Bunbury Harley-Davidson"/ loading="lazy"/></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<!-- CONTACT -->
+<section class="contact-band" id="contact">
+  <div class="contact-inner">
+    <div class="contact-text">
+      <p class="label">Any Enquiry</p>
+      <h2 class="contact-band-title">GET IN<br><em>TOUCH</em></h2>
+      <p class="contact-band-sub">Classes, memberships, fight team, or just want to know more — send us a message and we'll get back to you.</p>
+      <div class="contact-detail">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        denningboxingclub@outlook.com
+      </div>
+    </div>
+
+    <form class="enquiry-form" action="https://formspree.io/f/xeoqgwon" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" name="name" placeholder="John Smith" required/>
+        </div>
+        <div class="form-group">
+          <label>Your Email</label>
+          <input type="email" name="email" placeholder="you@email.com" required/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Phone (optional)</label>
+        <input type="tel" name="phone" placeholder="04XX XXX XXX"/>
+      </div>
+      <div class="form-group">
+        <label>What's Your Enquiry About?</label>
+        <select name="subject">
+          <option value="">Select a topic...</option>
+          <option value="General Classes">General Classes</option>
+          <option value="Ladies Class">Ladies Class</option>
+          <option value="Kids Program">Kids Program</option>
+          <option value="Box Fit">Box Fit</option>
+          <option value="Fight Team">Fight Team</option>
+          <option value="Membership & Pricing">Membership &amp; Pricing</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Your Message</label>
+        <textarea name="message" rows="4" placeholder="Tell us a bit about yourself or what you'd like to know..." required></textarea>
+      </div>
+      <input type="hidden" name="_subject" value="New Enquiry — Denning Boxing Club"/>
+      <button type="submit" class="form-submit">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        Send Enquiry
+      </button>
+      <p class="form-note">We'll reply to your email within 24 hours.</p>
+    </form>
+  </div>
+</section>
+<footer>
+  <div class="foot-logo"><em>D</em>ENNING <em>B</em>OXING <em>C</em>LUB <em>INC.</em></div>
+  <a class="foot-fb" href="https://www.facebook.com/DenningBoxingClubInc/" target="_blank" rel="noopener">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+    Facebook
+  </a>
+  <p class="foot-copy">© 2026 Denning Boxing Club Inc. — Est. 2006 · East Bunbury, WA</p>
+</footer>
+
+<script>
+// Nav solid on scroll
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('solid', scrollY > 60);
+});
+
+// Drawer
+function toggleDrawer() {
+  document.getElementById('drawer').classList.toggle('open');
+  document.getElementById('veil').classList.toggle('open');
+  document.getElementById('burger').classList.toggle('open');
+  document.body.style.overflow = document.getElementById('drawer').classList.contains('open') ? 'hidden' : '';
+}
+function closeDrawer() {
+  document.getElementById('drawer').classList.remove('open');
+  document.getElementById('veil').classList.remove('open');
+  document.getElementById('burger').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Reveal on scroll
+const rv = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); rv.unobserve(e.target); } });
+}, {threshold: 0.1});
+document.querySelectorAll('.rv').forEach(el => rv.observe(el));
+
+// Photo slideshows
+document.querySelectorAll('.card-photo').forEach(container => {
+  const slides = container.querySelectorAll('.slide');
+  const dots   = container.querySelectorAll('.pdot');
+  if (slides.length < 2) return;
+  let cur = 0;
+  setInterval(() => {
+    slides[cur].classList.remove('on');
+    dots[cur].classList.remove('on');
+    cur = (cur + 1) % slides.length;
+    slides[cur].classList.add('on');
+    dots[cur].classList.add('on');
+  }, 3200);
+});
+
+// Generic accordion toggle
+function toggleAcc(drawerId, caretId) {
+  const drawer = document.getElementById(drawerId);
+  const caret  = document.getElementById(caretId);
+  const open   = drawer.classList.toggle('open');
+  const base   = 'The Fight Team';
+  caret.textContent = open ? `▴ Close` : `▾ Meet ${base}`;
+}
+
+// Fight team slideshow
+(function() {
+  var slides = document.querySelectorAll('.team-slide');
+  var dots   = document.querySelectorAll('.team-dot');
+  var cur = 0;
+  var total = 9;
+  var timer;
+
+  function goTo(n) {
+    slides[cur].classList.remove('on');
+    dots[cur].classList.remove('on');
+    cur = (n + total) % total;
+    slides[cur].classList.add('on');
+    dots[cur].classList.add('on');
+    document.getElementById('teamCur').textContent = cur + 1;
+  }
+
+  function autoPlay() {
+    timer = setInterval(function() { goTo(cur + 1); }, 3500);
+  }
+
+  window.goTeamSlide = function(n) { clearInterval(timer); goTo(n); autoPlay(); };
+  window.shiftTeam   = function(d) { clearInterval(timer); goTo(cur + d); autoPlay(); };
+
+  // Start auto-rotate when drawer opens (observe)
+  var drawer = document.getElementById('teamDrawer');
+  var started = false;
+  var mo = new MutationObserver(function() {
+    if (drawer.classList.contains('open') && !started) {
+      started = true;
+      autoPlay();
+    }
+  });
+  mo.observe(drawer, { attributes: true, attributeFilter: ['class'] });
+})();
+
+
+// Gallery lightbox
+(function() {
+  var items = Array.from(document.querySelectorAll('.gal-item'));
+  var cur = 0;
+
+  function getSrc(item) {
+    return item.querySelector('img').src;
+  }
+  function getCaption(item) {
+    var tag = item.querySelector('.gal-tag');
+    return tag ? tag.textContent : '';
+  }
+
+  window.openLightbox = function(idx) {
+    cur = idx;
+    var lb = document.getElementById('lightbox');
+    document.getElementById('lbImg').src = getSrc(items[cur]);
+    document.getElementById('lbCaption').textContent = getCaption(items[cur]);
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  };
+
+  window.closeLightbox = function() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  };
+
+  window.shiftLb = function(dir) {
+    cur = (cur + dir + items.length) % items.length;
+    document.getElementById('lbImg').src = getSrc(items[cur]);
+    document.getElementById('lbCaption').textContent = getCaption(items[cur]);
+  };
+
+  // Attach click to each gallery item
+  items.forEach(function(item, i) {
+    item.addEventListener('click', function() { openLightbox(i); });
+  });
+
+  // Keyboard nav
+  document.addEventListener('keydown', function(e) {
+    var lb = document.getElementById('lightbox');
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') shiftLb(-1);
+    if (e.key === 'ArrowRight') shiftLb(1);
+  });
+})();
+
+</script>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lb-close" onclick="closeLightbox()">✕</button>
+  <button class="lb-prev" onclick="event.stopPropagation();shiftLb(-1)">&#8592;</button>
+  <button class="lb-next" onclick="event.stopPropagation();shiftLb(1)">&#8594;</button>
+  <div class="lb-img-wrap">
+    <img id="lbImg" src="" alt=""/>
+  </div>
+  <p class="lb-caption" id="lbCaption"></p>
+</div>
+
+<!-- STICKY CONTACT -->
+<div class="sticky-contact">
+  <a class="sticky-btn phone" href="tel:+61417171469">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    <span>0417 171 469</span>
+  </a>
+  <a class="sticky-btn enquiry" href="#contact">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    <span>Book a Free Trial</span>
+  </a>
+</div>
+
+</body>
+
+</html>
